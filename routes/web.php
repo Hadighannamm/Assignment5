@@ -6,4 +6,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::resource('students', StudentController::class);
+Route::resource('/students', StudentController::class);
